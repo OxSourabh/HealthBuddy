@@ -123,7 +123,7 @@ class OptionsMenu(
     private fun setupAppURL() {
         val item = menu!!.findItem(R.id.app_url)
         item.setOnMenuItemClickListener { _: MenuItem? ->
-            val myIntent = Intent(Intent.ACTION_VIEW, "https://github.com/Futsch1/medTimer".toUri())
+            val myIntent = Intent(Intent.ACTION_VIEW, "https://holkarhealthcare.com/".toUri())
             safeStartActivity(context, myIntent)
             true
         }
